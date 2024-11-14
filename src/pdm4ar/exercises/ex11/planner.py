@@ -243,3 +243,6 @@ class SpaceshipPlanner:
         states = [SpaceshipState(*v) for v in npstates]
         mystates = DgSampledSequence[SpaceshipState](timestamps=ts, values=states)
         return mycmds, mystates
+
+
+# blub
